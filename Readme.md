@@ -1,0 +1,6 @@
+Documentacion de la aplicacion , herramientas y metodos/funciones utilizadas.
+
+Primeramente las herramientas utilizadas son : Netbeans IDEA 8.0 (con los plugins del JavaWeb Sprint), xampp 7.2.34 (server y mysql del mismo con sus puertos por defecto y con un user root con todos los privilegios), phpmyadmin para manipular la base de datos(estos son exportados y deben ser importados para tener los mismos campos y datos, aclaracion dejo incorporado mi tabla para la incorporacion correspondiente). 
+
+Procediendo al codigo este se divide en diferentes partes: Para la vista se utilizo .jsp con bootstrap para el diseño del front-end,el Model con la clase registroOperacion igual que la base de datos con un Constructor y metodos geters y seters, y el Controlador el cual posee el Crud con las funciones lista(),listarEgreso(),listarIngreso para entregar los datos con las distintas peticiones realizadas, el metodo agregar(),editar(),y eliminar() (aclaracion : "estos poseen un msj de error que se manda una vez se realiza el update, sin embargo al redirigirse al index/home los cambios funcionan y se pueden ver desde la eliminacion de un registro como la actualizacion/cambio"), y el metodo balance() el cual no funciona correctamente. 
+
